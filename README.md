@@ -1,6 +1,8 @@
 # ES6 Base class
 This base class is meant to simplify the onload logic, and have the code run on page load. If a class is extending base, it will automatically run the init() function on load, as that is set in the constructor of base.
 
+I am planning to package this and release it on npm in the near future.
+
 ## Example of usage:
 ```js
 import Base from 'es6-base';
