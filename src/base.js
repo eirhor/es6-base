@@ -1,5 +1,9 @@
+import DataStore from 'eirhor-data-store';
+
 class Base {
     constructor() {
+        this.dataStore = new DataStore();
+
         if (document.readyState === 'interactive' || document.readyState === 'complete') {
             return this.init();
         }
@@ -8,7 +12,7 @@ class Base {
     }
 
     init() {
-        console.warn('Override the init function when extending this class.') // eslint-disable-line
+        return false;
     }
 }
 

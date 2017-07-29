@@ -1,7 +1,7 @@
 {
-  "name": "es6-library-minimal",
-  "version": "1.0.3",
-  "description": "ES6 Universal Library Starter",
+  "name": "eirhor-es6-base",
+  "version": "1.0.0",
+  "description": "Base class that I use in all my projects",
   "main": "./index.js",
   "scripts": {
     "prepublish": "npm run build-all",
@@ -69,6 +69,9 @@
     "gulp-eslint": "^1.1.1",
     "gulp-load-plugins": "^1.2.0",
     "gulp-util": "^3.0.6",
+    "jsdom": "11.1.0",
+    "jsdom-global": "3.0.2",
+    "json-loader": "^0.5.7",
     "mocha": "^2.3.4",
     "object-assign": "^4.0.1",
     "webpack": "^1.12.11",
@@ -80,5 +83,8 @@
     "dist-node": "es6-base.js",
     "dist-web": "es6-base.web.js",
     "bundle-node": true
+  },
+  "dependencies": {
+    "eirhor-data-store": "^1.0.0"
   }
 }
