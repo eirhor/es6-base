@@ -4,7 +4,7 @@ class Base {
             return this.init();
         }
 
-        document.addEventListener('DOMContentLoaded', this.init(), false);
+        document.addEventListener('DOMContentLoaded', () => { this.init(); }, false);
     }
 
     init() {
