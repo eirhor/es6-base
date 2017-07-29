@@ -4,7 +4,7 @@
 
 This base class is meant to simplify the onload logic, and have the code run on page load. If a class is extending base, it will automatically run the init() function on load, as that is set in the constructor of base.
 
-Also includes the DataStore class, and initializes it into the `Base.dataStore` property, where you can easily access it from any class that extends Base.
+Also includes the [DataStore class](https://github.com/eirhor/data-store), and initializes it into the `Base.dataStore` property, where you can easily access it from any class that extends Base.
 
 ## Installation
 ```
